@@ -1,0 +1,24 @@
+//Override des variables bootstrap scss ici
+
+$primary: #7749F8;
+$secondary: #54595E;
+$white: #FFFFFF;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  nav {
+    .customUl {
+      list-style-type: none;
+    }
+  }
+  section {
+    .container {
+      .customWidth {
+        width: fit-content;
+      }
+    }
+  }
+}

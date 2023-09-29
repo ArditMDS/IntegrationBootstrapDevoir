@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Integration</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+            href="./src/scss/style.scss"
+            rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/442e34c216.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <section class="bg-primary p-5">
+    <nav class="container-fluid">
+      <ul class="row customUl">
+        <li class="col-md-2 offset-md-8">
+          <a class="customLink text-white text-decoration-none fw-normal" href="#">Acheter des livres</a>
+        </li>
+        <li class="col-md-2">
+          <a href="#" class="customLink text-white text-decoration-none fw-normal">Consulter des livres</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
+          <h1 class="fw-bold text-white">Acheter des livres, c’est facile</h1>
+          <p class="fw-normal text-white">
+            Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.
+          </p>
+          <button class="btn bg-white text-primary fw-semibold customWidth">Voir nos livres</button>
+        </div>
+        <img class="col-md-4 offset-md-1" src="/assets/images/image1.png" alt="">
+      </div>
+    </div>
+  </section>
+  <main class="container mt-5">
+    <div class="row">
+      <h2 class="col-md-12 text-center fw-bold">Consultez les classiques</h2>
+      <div class="col-md-6 my-4 offset-md-3">
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Rechercher un livre" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="alert alert-warning col-md-4 offset-md-4 d-flex justify-content-between align-items-center mb-4" role="alert">
+        <i class="fa-solid fa-triangle-exclamation fa-xl" style="color: #664d03;"></i>
+        <p class="m-0 text-center">
+          Attention les frais de port ne sont pas inclus
+        </p>
+        <i class="fa-solid fa-xmark fa-xl" style="color: #664d03;"></i>
+      </div>
+      <section>
+        <article>
+
+        </article>
+      </section>
+    </div>
+  </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
