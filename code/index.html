@@ -19,7 +19,7 @@
   <body>
   <section class="bg-primary p-5">
     <nav class="container-fluid">
-      <ul class="row customUl">
+      <ul class="row customUl d-none d-md-flex">
         <li class="col-md-2 offset-md-8">
           <a class="customLink text-white text-decoration-none fw-normal" href="#">Acheter des livres</a>
         </li>
@@ -28,23 +28,23 @@
         </li>
       </ul>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
+    <div class="container mt-5">
+      <div class="row mb-5">
+        <div class="col-md-4 offset-md-2 d-flex flex-column justify-content-center">
           <h1 class="fw-bold text-white">Acheter des livres, c’est facile</h1>
-          <p class="fw-normal text-white">
+          <p class="fw-normal text-white my-4">
             Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.
           </p>
           <button class="btn bg-white text-primary fw-semibold customWidth">Voir nos livres</button>
         </div>
-        <img class="col-md-4 offset-md-1" src="/assets/images/image1.png" alt="">
+        <img class="col-md-4 offset-md-1 d-none d-md-block" src="/assets/images/image1.png" alt="">
       </div>
     </div>
   </section>
-  <main class="container mt-5">
-    <div class="row">
+  <main class="container-fluid mt-5">
+    <div class="row d-flex justify-content-center">
       <h2 class="col-md-12 text-center fw-bold">Consultez les classiques</h2>
-      <div class="col-md-6 my-4 offset-md-3">
+      <div class="col-md-6 my-4">
         <div class="input-group">
           <span class="input-group-text" id="basic-addon1">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -52,20 +52,166 @@
           <input type="text" class="form-control" placeholder="Rechercher un livre" aria-label="Username" aria-describedby="basic-addon1">
         </div>
       </div>
-      <div class="alert alert-warning col-md-4 offset-md-4 d-flex justify-content-between align-items-center mb-4" role="alert">
-        <i class="fa-solid fa-triangle-exclamation fa-xl" style="color: #664d03;"></i>
-        <p class="m-0 text-center">
-          Attention les frais de port ne sont pas inclus
-        </p>
-        <i class="fa-solid fa-xmark fa-xl" style="color: #664d03;"></i>
+      <div class="col-12 row d-flex justify-content-center">
+        <div class="alert alert-warning col-md-4 d-none d-md-flex justify-content-md-between align-items-center mb-4" role="alert">
+          <i class="fa-solid fa-triangle-exclamation fa-xl" style="color: #664d03;"></i>
+          <p class="m-0 text-center">
+            Attention les frais de port ne sont pas inclus
+          </p>
+          <i class="fa-solid fa-xmark fa-xl" style="color: #664d03;"></i>
+        </div>
       </div>
-      <section>
-        <article>
-
+      <section class="row gx-5 d-flex justify-content-md-between justify-content-center">
+        <article class="col-md-3 col-7 d-flex flex-column align-items-center position-relative">
+          <span class="badge bg-light text-primary position-absolute customPosition">Best Seller</span>
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
         </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <span class="badge bg-light text-primary position-absolute customPosition">Best Seller</span>
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-flex d-md-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-flex flex-column align-items-center position-relative">
+          <span class="badge rounded-pill bg-danger position-absolute customPosition">Rupture de stock</span>
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <article class="col-md-3 col-7 d-md-flex d-none flex-column align-items-center position-relative">
+          <img class="w-100" src="/assets/images/image2.png" alt="">
+          <div class="w-100">
+            <h3>Baudelaire</h3>
+            <p>Les fleurs du mal</p>
+          </div>
+        </article>
+        <nav aria-label="...">
+          <ul class="pagination customRadius pagination-md gap-3 d-flex justify-content-center">
+            <li class="page-item active" aria-current="page">
+              <a class="page-link">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="col-md-12 row bg-primary p-5">
+        <img class="col-md-3 col-6 offset-3 offset-md-2" src="/assets/images/image2.png" alt="">
+        <div class="col-md-4 offset-md-2 d-flex flex-column justify-content-center">
+          <h1 class="fw-bold text-white text-center text-md-start">Notre best seller</h1>
+          <p class="fw-normal text-white my-4 text-center text-md-start">
+            Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.
+          </p>
+          <div class="d-flex justify-content-center d-md-flex justify-content-md-start">
+            <button class="btn bg-white text-primary fw-semibold customWidth">Acheter</button>
+          </div>
+        </div>
+      </section>
+      <section class="col-md-6 row mt-5">
+        <h2 class="col-md-12 text-secondary fw-bold text-center mb-5">Top des ventes</h2>
+        <table class="table table-borderless mb-5">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom</th>
+            <th class="d-none d-md-block" scope="col">Date de sortie</th>
+            <th scope="col">Disponibilité</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Les fleurs du mal</td>
+            <td class="d-none d-md-block">21/12/2021</td>
+            <td>
+              <span class="badge rounded-pill bg-success">Disponible</span>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Voyages au bout de la nuit</td>
+            <td class="d-none d-md-block">12/08/2020</td>
+            <td>
+              <span class="badge rounded-pill bg-danger">Rupture</span>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Don Quichotte</td>
+            <td class="d-none d-md-block">05/02/2016</td>
+            <td>
+              <span class="badge rounded-pill bg-success">Disponible</span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
       </section>
     </div>
   </main>
+  <footer class="container-fluid bg-primary ">
+    <section class="row d-flex justify-content-md-center flex-column flex-md-row align-items-center p-5">
+      <ul class="customUl col-6 col-md-2">
+        <li><a href="" class=" fw-semibold text-decoration-none text-white">Navigation</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">News</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Acheter des livres</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Consulter des livres</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Best Sellers</a></li></ul>
+      <ul class="customUl col-6 col-md-2">
+        <li><a href="" class=" fw-semibold text-decoration-none text-white">Aide</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Prix</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Comparer</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Catalogue</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Sav</a></li></ul>
+      <ul class="customUl col-6 col-md-2">
+        <li><a href="" class=" fw-semibold text-decoration-none text-white">Informations</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Conditions d'utilisation</a></li>
+        <li><a href="" class=" fw-normal text-decoration-none text-white">Mentions légales</a></li></ul>
+    </section>
+  </footer>
     <script type="module" src="src/main.js"></script>
   </body>
 </html>

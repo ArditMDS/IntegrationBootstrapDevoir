@@ -8,16 +8,42 @@ $white: #FFFFFF;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Josefin+Sans&display=swap');
 
 body {
-  font-family: 'Inter', sans-serif;
-  nav {
-    .customUl {
-      list-style-type: none;
-    }
+  .customUl {
+    list-style-type: none;
   }
-  section {
-    .container {
-      .customWidth {
-        width: fit-content;
+  font-family: 'Inter', sans-serif;
+  .customWidth {
+    width: fit-content;
+  }
+  main {
+    div {
+      section {
+        article {
+          margin-bottom: 100px;
+          h3 {
+            margin: 0;
+            font-weight:700;
+          }
+          p {
+            margin: 0;
+            color: $secondary;
+            font-weight:600;
+          }
+          .customPosition {
+            top: 15px;
+            right: 35px;
+          }
+        }
+        nav {
+          .customRadius {
+            li{
+              a{
+                border-radius: 4px!important;
+                width: 35px;
+              }
+            }
+          }
+        }
       }
     }
   }
